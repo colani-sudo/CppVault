@@ -1,0 +1,18 @@
+Linux Editors
+- vim
+- gedit
+- nano
+
+Lets get to GitHub!!!
+========================================
+cat	- opens a file
+touch 	- creates a file
+ls 	- list files
+
+To add a file:
+	git add foo.cpp		//tells git that this a file in the repository
+	git commit -m "message"	//commit saves the file in git hub, message is what you did on the file
+	git status			//shows where your are
+	git push			//push whatever changes to github
+	
+
