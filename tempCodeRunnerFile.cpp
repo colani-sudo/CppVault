@@ -1,0 +1,4 @@
+int *pop()
+    {
+        return;
+    }

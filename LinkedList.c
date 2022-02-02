@@ -10,7 +10,7 @@ struct Node
 void create(int A[], int n)
 {
     int i;
-    struct Node *t; //to point to first or head node
+    struct Node *t; //to create any new node
     struct Node *last; //to point to tail node
     first = (struct Node *)malloc(sizeof(struct Node));
     first->data = A[0];
@@ -86,9 +86,9 @@ struct Node* Rsearch(struct Node* p, int key){
         return (p);
     Rsearch(p->next,key);
 }
-//change any node to first node
-void searchAN(struct Node* p, int key){
-    struct Node* q = NULL;
+//search and change any node to first node
+void  searchAN(struct Node* p, int key){
+    struct Node* q = NULL; //instead of initializing wt NULL can used q=p;
     while(p!=NULL){
         if(key==p->next){
             q->next=p->next;
