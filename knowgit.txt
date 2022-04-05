@@ -15,4 +15,15 @@ To add a file:
 	git status			//shows where your are
 	git push			//push whatever changes to github
 	
+==============================================================
+To track a file/upload it from local repository to git repository
+-----------------------------------------------------------------
+(Right-click on folder to track and select Git Here)
+git init		//initializes the file as empty repository in C:, defaulted to Master branch
+git status		//check for uncommited files
+git add .		//to add all uncommitted files to git
+git commit -m "first commit"
+git remote add origin https://github.com/colani-sudo/mips.git		//get this link from the online/remote repository to link them
+git push -u origin master			//the -u provides a pipeline for future commits, its used only on the first push to remote git
+==============================================================
 
